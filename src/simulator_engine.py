@@ -95,17 +95,17 @@ def plotStats(m, t, o, d):
     # set figure size
     pylab.rcParams["figure.figsize"] = (12, 7)
     # set font size for titles
-    pylab.rcParams['axes.titlesize'] = 12
+    pylab.rcParams['axes.titlesize'] = 10
     # set font size for labels on axes
-    pylab.rcParams['axes.labelsize'] = 7
+    pylab.rcParams['axes.labelsize'] = 5
     # set size of numbers on x-axis
-    pylab.rcParams['xtick.labelsize'] = 7
+    pylab.rcParams['xtick.labelsize'] = 5
     # set size of numbers on y-axis
-    pylab.rcParams['ytick.labelsize'] = 7
+    pylab.rcParams['ytick.labelsize'] = 5
     # set size of ticks on x-axis
-    pylab.rcParams['xtick.major.size'] = 7
+    pylab.rcParams['xtick.major.size'] = 5
     # set size of ticks on y-axis
-    pylab.rcParams['ytick.major.size'] = 7
+    pylab.rcParams['ytick.major.size'] = 5
     # set numpoints for legend
     pylab.rcParams['legend.numpoints'] = 1
 
